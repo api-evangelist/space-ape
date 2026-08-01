@@ -1,7 +1,24 @@
 aid: space-ape
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/space-ape.png
 name: Space Ape
-description: 'Space Ape is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Space Ape Games is a London-based mobile game studio founded in 2012 and now part
+  of Supercell, known for live-service mobile titles including Beatstar, Fastlane: Road to Revenge,
+  Transformers: Earth Wars, Samurai Siege, and Rival Kingdoms. The studio operates in the
+  consumer gaming sector and does not publish a public developer API, developer portal, or SDK;
+  its primary web presence redirects to Supercell. This profile was surfaced as an Accel
+  portfolio lead and enriched by the API Evangelist pipeline, which found no public API surface
+  and captured domain-security posture for the studio domain.'
 url: https://raw.githubusercontent.com/api-evangelist/space-ape/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Game Studio
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/space-ape-domain-security.yml
 - type: Website
   url: http://www.spaceapegames.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
