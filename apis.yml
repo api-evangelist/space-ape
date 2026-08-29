@@ -31,6 +31,9 @@ description: 'Space Ape Games is a London-based mobile game studio founded in 20
   portfolio lead and enriched by the API Evangelist pipeline, which found no public API surface
   and captured domain-security posture for the studio domain.'
 url: https://raw.githubusercontent.com/api-evangelist/space-ape/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was surfaced as an Accel portfolio lead and enriched by the API Evangelist pipeline, which found no public API surface and captured domain-security posture for the studio domain."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
