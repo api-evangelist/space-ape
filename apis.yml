@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.spaceapegames.com', status: 301, note: 'declared website redirects to https://supercell.com/ — a different registrable domain (spaceapegames.com -> supercell.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/space-ape.png
 name: Space Ape
 description: 'Space Ape Games is a London-based mobile game studio founded in 2012 and now part
